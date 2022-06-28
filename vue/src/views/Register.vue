@@ -60,7 +60,11 @@
 
                 this.$refs['form'].validate((valid) => {
                     if (valid) {
+<<<<<<< HEAD
                         request.post("/api/user/register", this.form).then(res => {
+=======
+                        request.post("/user/register", this.form).then(res => {
+>>>>>>> e061769 (2022.6.28)
                         if (res.code === '0') {
                             this.$message({
                                 type: "success",

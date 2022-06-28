@@ -8,11 +8,20 @@
   },
   "dependencies": {
     "@element-plus/icons-vue": "^1.1.4",
+<<<<<<< HEAD
+=======
+    "@wangeditor/editor": "^5.1.1",
+>>>>>>> e061769 (2022.6.28)
     "core-js": "^3.8.3",
     "element-plus": "^2.1.10",
     "vue": "^3.2.13",
     "vue-router": "^4.0.14",
+<<<<<<< HEAD
     "vuex": "^4.0.0"
+=======
+    "vuex": "^4.0.0",
+    "wangeditor": "^4.7.15"
+>>>>>>> e061769 (2022.6.28)
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.0",

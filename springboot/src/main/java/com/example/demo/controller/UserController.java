@@ -30,7 +30,11 @@ public class UserController {
             return Result.error("-1","用户名或密码错误");
         }
         //userMapper.insert(user);
+<<<<<<< HEAD
         return Result.success();
+=======
+        return Result.success(res);
+>>>>>>> e061769 (2022.6.28)
     }
 
     @PostMapping("/register")

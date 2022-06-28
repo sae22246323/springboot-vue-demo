@@ -44,13 +44,21 @@
             login() {
                 this.$refs['form'].validate((valid) => {
                     if (valid) {
+<<<<<<< HEAD
                         request.post("/api/user/login", this.form).then(res => {
+=======
+                        request.post("/user/login", this.form).then(res => {
+>>>>>>> e061769 (2022.6.28)
                             if (res.code === '0') {
                                 this.$message({
                                     type: "success",
                                     message: "登录成功"
                                 })
+<<<<<<< HEAD
 
+=======
+                                sessionStorage.setItem("user", JSON.stringify(res.data))  //缓存用户信息
+>>>>>>> e061769 (2022.6.28)
                                 this.$router.push("/")  //登录成功之后进行页面的跳转，跳转到主页
                             } else {
                                 this.$message({
